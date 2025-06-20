@@ -1,0 +1,323 @@
+{
+   "language": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt"
+  },
+
+  "header": {
+    "slogan": "Ăn, Ngủ, Tập Gym & Lặp Lại",
+    "contact": "Liên hệ: + (123) 456-7890",
+    "address": "123 Linh Xuân, thành phố Thủ Đức, Hồ Chí Minh.",
+    "join": "Tham gia thành viên",
+    "nav": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "services": "Dịch vụ",
+      "blog": "Bài viết",
+      "contact": "Liên Hệ",
+      "login": "Đăng nhập",
+      "pt" : "Huấn luyện viên",
+      "class": "Lớp học nhóm",
+      "nutrition" : "Kế hoạch dinh dưỡng"
+    }
+  },
+  "home": {
+    "title" : "Trang chủ",
+    "homeslide": {
+      "slides": [
+        {
+          "title": "Thay Đổi Hình Thể Của Bạn",
+          "subtitle": "BẮT ĐẦU HÀNH TRÌNH TẬP LUYỆN NGAY HÔM NAY",
+          "description": "Tham gia cộng đồng gym của chúng tôi và chinh phục mục tiêu sức khỏe với các chương trình tập luyện được thiết kế riêng cho bạn.",
+          "cta": {
+            "primary": "Đăng Ký Ngay",
+            "secondary": "Tìm Hiểu Thêm"
+          }
+        },
+        {
+          "title": "Huấn Luyện Viên Chuyên Nghiệp",
+          "subtitle": "HƯỚNG DẪN BÀI BẢN – HIỆU QUẢ",
+          "description": "Đội ngũ huấn luyện viên được chứng nhận sẽ giúp bạn đạt được mục tiêu tập luyện một cách an toàn và hiệu quả.",
+          "cta": {
+            "primary": "Gặp Gỡ Đội Ngũ",
+            "secondary": "Đặt Lịch Tập"
+          }
+        },
+        {
+          "title": "Cơ Sở Vật Chất Hiện Đại",
+          "subtitle": "TRANG THIẾT BỊ TẬP LUYỆN TỐI TÂN",
+          "description": "Tập luyện hiệu quả với các thiết bị hiện đại trong không gian rộng rãi, thoáng mát và chuyên nghiệp.",
+          "cta": {
+            "primary": "Xem Cơ Sở Vật Chất",
+            "secondary": "Dùng Thử Miễn Phí"
+          }
+        }
+      ]
+    },
+     "FeaturesSection": {
+      "title": "Chúng Tôi Cung Cấp Gì",
+      "subtitle": "CÁC ĐẶC ĐIỂM NỔI BẬT",
+      "description": "Khám phá các dịch vụ thể hình toàn diện giúp bạn đạt được mục tiêu sức khỏe và thể chất một cách hiệu quả.",
+      "features": [
+        {
+          "title": "Trang thiết bị hiện đại",
+          "description": "Sử dụng đầy đủ các trang thiết bị hiện đại, từ cơ bản đến khu vực VIP, đáp ứng mọi nhu cầu luyện tập của bạn."
+        },
+        {
+          "title": "Huấn luyện cá nhân",
+          "description": "Tập cùng huấn luyện viên cá nhân (PT) từ 2 đến 8 buổi mỗi tháng giúp bạn đạt hiệu quả tối ưu."
+        },
+        {
+          "title": "Tư vấn dinh dưỡng",
+          "description": "Tư vấn và xây dựng kế hoạch dinh dưỡng cá nhân hóa theo từng mục tiêu cụ thể của bạn."
+        },
+        {
+          "title": "Lớp học nhóm cardio",
+          "description": "Tham gia không giới hạn các lớp cardio nhóm để cải thiện sức khỏe tim mạch và giảm cân hiệu quả."
+        },
+        {
+          "title": "Đánh giá thể chất định kỳ",
+          "description": "Theo dõi tình trạng sức khỏe và hiệu quả luyện tập qua các buổi đánh giá thể chất định kỳ và chuyên sâu."
+        },
+        {
+          "title": "Dịch vụ cao cấp",
+          "description": "Trải nghiệm dịch vụ spa định kỳ, ưu tiên đặt lịch PT và hỗ trợ riêng 24/7 cho các gói cao cấp."
+        }
+      ]
+    },
+     "AboutSection": {
+      "tagline": "VỀ CHÚNG TÔI",
+      "title": "Chúng Tôi Ở Đây Để Giúp Bạn Đạt Thể Hình Lý Tưởng",
+      "paragraph1": "FittLife là trung tâm thể hình hàng đầu, cam kết đồng hành cùng bạn trong hành trình nâng cao sức khỏe và vóc dáng. Với cơ sở vật chất hiện đại, đội ngũ huấn luyện viên chuyên nghiệp và phương pháp tiếp cận cá nhân hóa, chúng tôi mang đến môi trường luyện tập lý tưởng.",
+      "paragraph2": "Dù mục tiêu của bạn là tăng cơ, giảm cân, cải thiện sức bền hay đơn giản là duy trì lối sống lành mạnh, đội ngũ của chúng tôi sẽ luôn hỗ trợ bạn một cách tận tâm và hiệu quả.",
+      "features": [
+        "Trang thiết bị hiện đại và đa dạng",
+        "Huấn luyện viên cá nhân chuyên nghiệp",
+        "Chương trình tập luyện cá nhân hóa",
+        "Tư vấn và theo dõi dinh dưỡng chuyên sâu",
+        "Không gian rộng rãi, sạch sẽ, thoải mái",
+        "Cộng đồng luyện tập năng động và tích cực"
+      ],
+      "button": "Tìm Hiểu Thêm Về Chúng Tôi"
+    },
+
+     "ServicesSection": {
+      "title": "Dịch Vụ Nổi Bật",
+      "subtitle": "NHỮNG GÌ CHÚNG TÔI CUNG CẤP",
+      "description": "Khám phá các dịch vụ thể hình toàn diện giúp bạn đạt được mục tiêu sức khỏe và phong cách sống lý tưởng.",
+      "services": [
+        {
+          "id": "pt-uu-tien",
+          "title": "Huấn luyện viên cá nhân",
+          "description": "Được hỗ trợ 1-1 cùng HLV chuyên nghiệp, xây dựng lộ trình tập luyện phù hợp với mục tiêu cá nhân của bạn.",
+          "image": "/images/services/personal-training.jpg",
+          "link": "/services/pt-uu-tien"
+        },
+        {
+          "id": "lop-nhom",
+          "title": "Lớp nhóm năng động",
+          "description": "Tham gia các lớp cardio, HIIT hoặc yoga cùng huấn luyện viên trong môi trường vui vẻ và đầy năng lượng.",
+          "image": "/images/services/group-fitness.JPG",
+          "link": "/services/lop-nhom"
+        },
+        {
+          "id": "dinh-duong",
+          "title": "Tư vấn dinh dưỡng",
+          "description": "Tối ưu hiệu quả tập luyện với thực đơn dinh dưỡng cá nhân hóa phù hợp với thể trạng và mục tiêu.",
+          "image": "/images/services/nutrition-coaching.JPG",
+          "link": "/services/dinh-duong"
+        },
+        {
+          "id": "khu-vuc-vip",
+          "title": "Khu vực tập luyện cao cấp",
+          "description": "Tận hưởng không gian VIP, đầy đủ thiết bị hiện đại, spa, phòng hồi phục và nhiều tiện ích đặc quyền.",
+          "image": "/images/services/strength-training.JPG",
+          "link": "/services/khu-vuc-vip"
+        }
+      ],
+      "cta": "Xem tất cả dịch vụ"
+    },
+    "TestimonialsSection": {
+      "title": "Khách hàng nói gì về chúng tôi",
+      "subtitle": "CẢM NHẬN THỰC TẾ",
+      "description": "Lắng nghe trải nghiệm của những học viên đã thay đổi cuộc sống cùng các chương trình tập luyện tại FittLife.",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Sarah Johnson",
+          "role": "Người đam mê thể hình",
+          "image": "/images/testimonials/testimonial-1.JPG",
+          "quote": "FittLife đã thay đổi hoàn toàn cách tôi tiếp cận việc tập luyện. Các huấn luyện viên luôn tận tâm, hỗ trợ tôi đúng kỹ thuật và động viên tôi vượt qua giới hạn. Tôi đã giảm được 11kg và tự tin hơn rất nhiều!",
+          "rating": 5
+        },
+        {
+          "id": 2,
+          "name": "Michael Chen",
+          "role": "Vận động viên marathon",
+          "image": "/images/testimonials/testimonial-2.jpg",
+          "quote": "Là người chạy marathon, tôi cần một chương trình chuyên sâu để nâng cao thành tích. Chương trình cá nhân hoá từ FittLife giúp tôi cải thiện kỷ lục cá nhân tới 15 phút. Cơ sở vật chất đỉnh cao, cộng đồng thân thiện.",
+          "rating": 5
+        },
+        {
+          "id": 3,
+          "name": "Emma Rodriguez",
+          "role": "Nhân viên văn phòng",
+          "image": "/images/testimonials/testimonial-3.JPG",
+          "quote": "Với lịch làm việc bận rộn, tôi cần phòng tập linh hoạt và hiệu quả. Lịch lớp tại FittLife rất đa dạng, buổi tập ngắn nhưng cực kỳ hiệu quả. Dù không có nhiều thời gian, tôi vẫn thấy rõ kết quả sau mỗi tuần.",
+          "rating": 4
+        },
+        {
+          "id": 4,
+          "name": "David Wilson",
+          "role": "Người tập luyện sức mạnh",
+          "image": "/images/testimonials/testimonial-4.JPG",
+          "quote": "Chương trình tập sức mạnh tại FittLife rất bài bản và thử thách. Sau 6 tháng, tôi đã tăng mức deadlift lên thêm 45kg và phát triển cơ bắp rõ rệt. Huấn luyện viên cực kỳ chuyên môn và luôn đảm bảo an toàn.",
+          "rating": 5
+        }
+      ]
+    },
+
+    "CallToActionSection": {
+      "title": "Sẵn sàng thay đổi bản thân?",
+      "description": "Tham gia cộng đồng tập luyện của chúng tôi để bắt đầu hành trình sống khỏe mạnh và mạnh mẽ hơn mỗi ngày.",
+      "button": "Bắt đầu ngay"
+    }
+  
+  },
+  "about" : {
+    "title" : "Về chúng tôi",
+    "slider": {
+      "slides": [
+        {
+          "id": 1,
+          "image": "/images/hero/slide-1.jpg",
+          "title": "Câu chuyện của FittLife",
+          "subtitle": "HÀNH TRÌNH HÌNH THÀNH VÀ PHÁT TRIỂN",
+          "description": "FittLife được thành lập với sứ mệnh giúp mọi người sống khỏe mạnh và năng động hơn mỗi ngày. Tìm hiểu hành trình của chúng tôi từ những ngày đầu cho đến hiện tại.",
+          "cta": {
+            "primary": {
+              "text": "Khám phá câu chuyện",
+              "link": "/about"
+            },
+            "secondary": {
+              "text": "Xem video giới thiệu",
+              "link": "https://www.youtube.com/watch?v=KN3IemyqJJw"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "image": "/images/hero/slide-2.jpg",
+          "title": "Đội ngũ huấn luyện viên",
+          "subtitle": "CHUYÊN NGHIỆP & TẬN TÂM",
+          "description": "Đội ngũ huấn luyện viên tại FittLife luôn đồng hành cùng bạn trong từng bước tiến. Họ là những chuyên gia có chứng chỉ, kinh nghiệm và trái tim yêu nghề.",
+          "cta": {
+            "primary": {
+              "text": "Gặp gỡ huấn luyện viên",
+              "link": "/services/personal-training"
+            },
+            "secondary": {
+              "text": "Đặt lịch tư vấn",
+              "link": "/contact"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "image": "/images/hero/slide-3.jpg",
+          "title": "Cơ sở vật chất hiện đại",
+          "subtitle": "KHÔNG GIAN TẬP LUYỆN ĐẲNG CẤP",
+          "description": "FittLife tự hào mang đến môi trường tập luyện chuyên nghiệp với thiết bị hiện đại, không gian rộng rãi, sạch sẽ và đầy cảm hứng.",
+          "cta": {
+            "primary": {
+              "text": "Xem cơ sở vật chất",
+              "link": "/services"
+            },
+            "secondary": {
+              "text": "Dùng thử miễn phí",
+              "link": "/contact"
+            }
+          }
+        }
+      ]
+    },
+
+     "OurStorySection": {
+    "subtitle": "CÂU CHUYỆN CỦA CHÚNG TÔI",
+    "title": "Trải nghiệm sự xuất sắc trong thể hình từ năm 2010",
+    "paragraph1": "Tại FittLife, hành trình của chúng tôi bắt đầu với một sứ mệnh đơn giản: tạo ra một môi trường thể hình nơi mọi người đều cảm thấy được chào đón và được truyền cảm hứng để đạt được mục tiêu sức khỏe của mình. Được thành lập từ năm 2010, chúng tôi đã phát triển từ một phòng gym nhỏ địa phương thành một trung tâm thể hình hướng đến cộng đồng, đặt con người lên hàng đầu.",
+    "paragraph2": "Đội ngũ huấn luyện viên được chứng nhận của chúng tôi mang đến hàng thập kỷ kinh nghiệm kết hợp, giúp bạn thay đổi cuộc sống thông qua thể hình. Chúng tôi tin vào một phương pháp tiếp cận cân bằng, kết hợp giữa luyện tập hiệu quả, dinh dưỡng hợp lý và sức khỏe tinh thần.",
+    "imageMainAlt": "Câu chuyện phòng gym của chúng tôi",
+    "imageAccentAlt": "Huấn luyện thể hình",
+    "years": "14+",
+    "experienceTitle": "Năm kinh nghiệm",
+    "experienceDesc": "Trong ngành thể hình",
+    "coaches": "25+",
+    "coachTitle": "HLV chuyên nghiệp",
+    "coachDesc": "Chuyên gia được chứng nhận"
+  }
+  ,
+    "MissionValuesSection": {
+      "subtitle": "SỨ MỆNH & GIÁ TRỊ",
+      "title": "Tạo động lực cho hành trình sức khỏe của bạn mỗi ngày",
+      "paragraph1": "Sứ mệnh của FittLife là trao quyền cho mọi người thông qua thể dục và dinh dưỡng. Chúng tôi tin rằng mỗi người đều xứng đáng có một cuộc sống khỏe mạnh, tràn đầy năng lượng và chúng tôi cam kết cung cấp hướng dẫn, hỗ trợ và nguồn lực cần thiết để đạt được điều đó.",
+      "paragraph2": "Các giá trị cốt lõi của chúng tôi bao gồm sự hòa nhập, cộng đồng, chuyên môn và sự xuất sắc liên tục. Chúng tôi tạo ra không gian nơi mọi người, bất kể trình độ thể lực hiện tại, đều được chào đón và hỗ trợ trong hành trình sức khỏe độc đáo của họ.",
+      "value1Title": "Sức khỏe toàn diện",
+      "value1Desc": "Chúng tôi chú trọng đến cả thể chất và tinh thần của bạn",
+      "value2Title": "Sự tiến bộ bền vững",
+      "value2Desc": "Kết quả lâu dài hơn là giải pháp tạm thời",
+      "imageMainAlt": "Sứ mệnh và giá trị của chúng tôi",
+      "imageAccentAlt": "Tập luyện nhóm"
+    },
+       "TeamSection": {
+      "subtitle": "ĐỘI NGŨ CHUYÊN GIA",
+      "title": "Những chuyên gia tận tâm phía sau thành công của bạn",
+      "paragraph1": "Đội ngũ FittLife bao gồm những huấn luyện viên thể hình chuyên nghiệp, chuyên gia dinh dưỡng và nhân viên hỗ trợ tận tâm, tất cả đều cam kết giúp bạn đạt được mục tiêu sức khỏe và sự khỏe mạnh. Mỗi thành viên của đội ngũ chúng tôi đều có chứng chỉ đầy đủ trong lĩnh vực chuyên môn của họ và luôn cập nhật các phương pháp tập luyện hiện đại nhất.",
+      "paragraph2": "Chúng tôi tin rằng mối quan hệ giữa huấn luyện viên và hội viên cũng quan trọng như chính chương trình tập luyện. Đó là lý do tại sao chúng tôi đầu tư vào việc hiểu nhu cầu cụ thể của từng hội viên, điều chỉnh chương trình tập luyện và dinh dưỡng để tối đa hóa kết quả và đảm bảo trải nghiệm tập luyện thú vị.",
+      "feature1Title": "Đội ngũ tận tâm",
+      "feature1Desc": "Luôn sẵn sàng hỗ trợ bạn",
+      "feature2Title": "Lịch trình linh hoạt",
+      "feature2Desc": "Phù hợp với cuộc sống bận rộn",
+      "imageMainAlt": "Đội ngũ chuyên gia của chúng tôi",
+      "imageAccentAlt": "Huấn luyện viên cá nhân"
+    },
+        "CTA": {
+      "title": "Sẵn sàng bắt đầu hành trình của bạn?",
+      "description": "Tham gia cùng FittLife ngay hôm nay và khám phá sức mạnh thực sự của bạn với sự hỗ trợ từ đội ngũ chuyên gia hàng đầu của chúng tôi.",
+      "primary": "Tham quan phòng gym",
+      "secondary": "Đăng ký tư vấn miễn phí"
+    },
+
+        "FAQ": {
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Giải đáp thắc mắc về dịch vụ và phòng tập của chúng tôi",
+      "items": [
+        {
+          "question": "Phòng gym của bạn có phù hợp cho người mới bắt đầu không?",
+          "answer": "Hoàn toàn phù hợp! Chúng tôi đặc biệt tự hào về môi trường thân thiện và hòa nhập. Mỗi thành viên mới đều được buổi đánh giá và định hướng miễn phí để đảm bảo bạn cảm thấy tự tin khi bắt đầu hành trình của mình."
+        },
+        {
+          "question": "FittLife cung cấp những loại hình huấn luyện nào?",
+          "answer": "Chúng tôi cung cấp nhiều dịch vụ bao gồm huấn luyện cá nhân, các lớp học nhóm (yoga, spinning, HIIT, v.v.), tư vấn dinh dưỡng, và các chương trình tập luyện được cá nhân hóa để đáp ứng mục tiêu cụ thể của bạn."
+        },
+        {
+          "question": "Làm thế nào để đăng ký trở thành thành viên?",
+          "answer": "Bạn có thể đăng ký trực tiếp tại quầy lễ tân của phòng gym hoặc trực tuyến thông qua trang web của chúng tôi. Chúng tôi cung cấp nhiều gói thành viên linh hoạt, từ thẻ ngày đến thành viên dài hạn với nhiều ưu đãi."
+        },
+        {
+          "question": "Tôi có thể hủy tư cách thành viên của mình không?",
+          "answer": "Tất nhiên là có! Chúng tôi hiểu rằng hoàn cảnh có thể thay đổi. Thành viên có thể tạm dừng hoặc hủy tư cách thành viên của họ với thông báo trước 30 ngày. Nhóm dịch vụ khách hàng của chúng tôi sẽ hướng dẫn bạn qua quy trình này."
+        },
+        {
+          "question": "FittLife có cung cấp các buổi dùng thử miễn phí không?",
+          "answer": "Có! Chúng tôi cung cấp buổi dùng thử miễn phí 1 ngày cho khách mới để bạn có thể trải nghiệm cơ sở vật chất và dịch vụ của chúng tôi. Chỉ cần ghé qua và đăng ký với đội ngũ tiếp tân của chúng tôi."
+        }
+      ]
+    }
+
+  
+  }
+  
+
+
+}

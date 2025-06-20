@@ -1,0 +1,321 @@
+
+
+{
+   "language": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt"
+  },
+
+  "header": {
+    "slogan": "Eat, Sleep, Gym & Repeat",
+    "contact": "Message Us: + (123) 456-7890",
+    "address": "123 Linh Xuan, Thu Duc City, Ho Chi Minh.",
+    "join": "Join Membership",
+    "flag": "🇻🇳",
+    "brand": "FittLife",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "blog": "Blog",
+      "contact": "Contact",
+      "login": "Login",
+      "pt" : "Personal Training",
+      "class": "Group Classes",
+      "nutrition" : "Nutrition Plans"
+    }
+  },
+  "home": {
+    "homeslide": {
+      "slides": [
+        {
+          "title": "Transform Your Body",
+          "subtitle": "START YOUR FITNESS JOURNEY TODAY",
+          "description": "Join our gym community and conquer your health goals with personalized training programs.",
+          "cta": {
+            "primary": "Register Now",
+            "secondary": "Learn More"
+          }
+        },
+        {
+          "title": "Professional Trainers",
+          "subtitle": "STRUCTURED & EFFECTIVE GUIDANCE",
+          "description": "Certified trainers help you reach your fitness goals safely and effectively.",
+          "cta": {
+            "primary": "Meet the Team",
+            "secondary": "Book a Session"
+          }
+        },
+        {
+          "title": "Modern Facilities",
+          "subtitle": "STATE-OF-THE-ART EQUIPMENT",
+          "description": "Train effectively in a spacious, cool, and professional environment with modern equipment.",
+          "cta": {
+            "primary": "See Our Facilities",
+            "secondary": "Try for Free"
+          }
+        }
+      ]
+    },
+    "FeaturesSection": {
+      "title": "What We Offer",
+      "subtitle": "KEY FEATURES",
+      "description": "Discover comprehensive fitness services that help you achieve your health and physical goals effectively.",
+      "features": [
+        {
+          "title": "Modern Equipment",
+          "description": "Equipped with a full range of modern machines, from basic to VIP zones, meeting all your training needs."
+        },
+        {
+          "title": "Personal Training",
+          "description": "Train with a personal trainer (PT) from 2 to 8 sessions per month to maximize your results."
+        },
+        {
+          "title": "Nutrition Consulting",
+          "description": "Get personalized nutrition plans tailored to your specific goals."
+        },
+        {
+          "title": "Group Cardio Classes",
+          "description": "Join unlimited group cardio sessions to improve cardiovascular health and lose weight effectively."
+        },
+        {
+          "title": "Periodic Health Check",
+          "description": "Monitor your health and training results through regular, in-depth physical assessments."
+        },
+        {
+          "title": "Premium Services",
+          "description": "Enjoy spa services, PT priority booking, and 24/7 personal support with premium packages."
+        }
+      ]
+    },
+    "AboutSection": {
+      "tagline": "ABOUT US",
+      "title": "We Are Here to Help You Achieve Your Ideal Body",
+      "paragraph1": "FittLife is a leading fitness center committed to accompanying you on your journey to better health and physique. With modern facilities, professional trainers, and a personalized approach, we provide the ideal environment for your workouts.",
+      "paragraph2": "Whether your goal is to build muscle, lose weight, improve endurance, or simply maintain a healthy lifestyle, our team will always support you with dedication and effectiveness.",
+      "features": [
+        "Modern and diverse equipment",
+        "Professional personal trainers",
+        "Personalized training programs",
+        "Expert nutrition advice and tracking",
+        "Spacious, clean, and comfortable space",
+        "Active and supportive workout community"
+      ],
+      "button": "Learn More About Us"
+    },
+     "ServicesSection": {
+      "title": "Featured Services",
+      "subtitle": "WHAT WE OFFER",
+      "description": "Explore our comprehensive fitness services designed to help you achieve your health and lifestyle goals.",
+      "services": [
+        {
+          "id": "pt-uu-tien",
+          "title": "Personal Training",
+          "description": "1-on-1 coaching with certified trainers to build a personalized workout journey just for you.",
+          "image": "/images/services/personal-training.jpg",
+          "link": "/services/pt-uu-tien"
+        },
+        {
+          "id": "lop-nhom",
+          "title": "Dynamic Group Classes",
+          "description": "Join cardio, HIIT, or yoga classes with trainers in a fun, energetic environment.",
+          "image": "/images/services/group-fitness.JPG",
+          "link": "/services/lop-nhom"
+        },
+        {
+          "id": "dinh-duong",
+          "title": "Nutrition Coaching",
+          "description": "Maximize results with a personalized nutrition plan tailored to your condition and goals.",
+          "image": "/images/services/nutrition-coaching.JPG",
+          "link": "/services/dinh-duong"
+        },
+        {
+          "id": "khu-vuc-vip",
+          "title": "Premium Training Area",
+          "description": "Enjoy VIP space with modern equipment, spa access, recovery rooms, and exclusive amenities.",
+          "image": "/images/services/strength-training.JPG",
+          "link": "/services/khu-vuc-vip"
+        }
+      ],
+      "cta": "See all services"
+    },
+
+     "TestimonialsSection": {
+      "title": "What Our Clients Say",
+      "subtitle": "REAL FEEDBACK",
+      "description": "Hear from real clients who have transformed their lives through FittLife's training programs.",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Sarah Johnson",
+          "role": "Fitness Enthusiast",
+          "image": "/images/testimonials/testimonial-1.JPG",
+          "quote": "FittLife completely changed how I approach fitness. The coaches are always supportive, guide me with proper technique, and motivate me to go beyond my limits. I lost 11kg and feel so much more confident!",
+          "rating": 5
+        },
+        {
+          "id": 2,
+          "name": "Michael Chen",
+          "role": "Marathon Runner",
+          "image": "/images/testimonials/testimonial-2.jpg",
+          "quote": "As a marathon runner, I needed a focused program to improve performance. FittLife's personalized training helped me shave off 15 minutes from my best time. Top-notch facilities and a friendly community.",
+          "rating": 5
+        },
+        {
+          "id": 3,
+          "name": "Emma Rodriguez",
+          "role": "Office Worker",
+          "image": "/images/testimonials/testimonial-3.JPG",
+          "quote": "With a busy schedule, I needed a flexible and effective gym. FittLife’s class schedule is diverse, short but super effective. I still see clear results week after week, even with limited time.",
+          "rating": 4
+        },
+        {
+          "id": 4,
+          "name": "David Wilson",
+          "role": "Strength Trainer",
+          "image": "/images/testimonials/testimonial-4.JPG",
+          "quote": "FittLife’s strength training program is structured and challenging. After 6 months, I’ve increased my deadlift by 45kg and gained visible muscle. Coaches are extremely professional and safety-focused.",
+          "rating": 5
+        }
+      ]
+    },
+
+       "CallToActionSection": {
+      "title": "Ready to transform yourself?",
+      "description": "Join our fitness community to begin your journey toward a healthier and stronger lifestyle.",
+      "button": "Get Started Now"
+    }
+  
+  },
+   "about" :{
+      "title" : "About-us",
+       "slider": {
+      "slides": [
+        {
+          "id": 1,
+          "image": "/images/hero/slide-1.jpg",
+          "title": "The Story of FittLife",
+          "subtitle": "OUR JOURNEY OF FORMATION AND GROWTH",
+          "description": "FittLife was founded with the mission to help people live healthier and more active lives every day. Discover our journey from the early days to the present.",
+          "cta": {
+            "primary": {
+              "text": "Discover Our Story",
+              "link": "/about"
+            },
+            "secondary": {
+              "text": "Watch Introduction Video",
+              "link": "https://www.youtube.com/watch?v=KN3IemyqJJw"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "image": "/images/hero/slide-2.jpg",
+          "title": "Professional Trainers",
+          "subtitle": "DEDICATED & EXPERIENCED",
+          "description": "FittLife's trainers accompany you through every step. They are certified experts with experience and a passion for fitness.",
+          "cta": {
+            "primary": {
+              "text": "Meet Our Trainers",
+              "link": "/services/personal-training"
+            },
+            "secondary": {
+              "text": "Book a Consultation",
+              "link": "/contact"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "image": "/images/hero/slide-3.jpg",
+          "title": "Modern Facilities",
+          "subtitle": "PREMIUM TRAINING ENVIRONMENT",
+          "description": "We proudly offer a professional workout space with advanced equipment, spacious and clean areas that inspire your fitness journey.",
+          "cta": {
+            "primary": {
+              "text": "See Our Facilities",
+              "link": "/services"
+            },
+            "secondary": {
+              "text": "Try for Free",
+              "link": "/contact"
+            }
+          }
+        }
+      ]
+    },
+    "OurStorySection": {
+    "subtitle": "OUR STORY",
+    "title": "Experience Excellence in Fitness Since 2010",
+    "paragraph1": "At FittLife, our journey began with a simple mission: to create a fitness environment where everyone feels welcome and inspired to achieve their health goals. Founded in 2010, we’ve grown from a small local gym into a community-focused fitness center that puts people first.",
+    "paragraph2": "Our certified trainers bring decades of combined experience, helping you transform your life through fitness. We believe in a balanced approach that includes effective training, proper nutrition, and mental well-being.",
+    "imageMainAlt": "Our gym story",
+    "imageAccentAlt": "Fitness training",
+    "years": "14+",
+    "experienceTitle": "Years of Experience",
+    "experienceDesc": "In the fitness industry",
+    "coaches": "25+",
+    "coachTitle": "Professional Coaches",
+    "coachDesc": "Certified experts"
+  },
+   "MissionValuesSection": {
+      "subtitle": "MISSION & VALUES",
+      "title": "Inspiring your health journey every day",
+      "paragraph1": "FittLife's mission is to empower individuals through fitness and nutrition. We believe that everyone deserves a healthy, energetic life and are committed to providing the guidance, support, and resources needed to achieve it.",
+      "paragraph2": "Our core values include inclusivity, community, expertise, and continuous excellence. We create a space where everyone, regardless of current fitness level, feels welcomed and supported in their unique wellness journey.",
+      "value1Title": "Holistic Health",
+      "value1Desc": "We care for both your physical and mental well-being",
+      "value2Title": "Sustainable Progress",
+      "value2Desc": "We focus on long-term results, not temporary fixes",
+      "imageMainAlt": "Our mission and values",
+      "imageAccentAlt": "Group training session"
+    },
+     "TeamSection": {
+      "subtitle": "OUR EXPERT TEAM",
+      "title": "The dedicated professionals behind your success",
+      "paragraph1": "FittLife's team includes professional fitness coaches, nutrition experts, and supportive staff, all committed to helping you achieve your health and wellness goals. Each team member is fully certified in their field and stays up-to-date with the latest training methods.",
+      "paragraph2": "We believe that the relationship between coach and member is just as important as the workout itself. That's why we invest in understanding each member’s unique needs, tailoring fitness and nutrition programs to maximize results and ensure a rewarding training experience.",
+      "feature1Title": "Dedicated Team",
+      "feature1Desc": "Always ready to support you",
+      "feature2Title": "Flexible Scheduling",
+      "feature2Desc": "Fits your busy lifestyle",
+      "imageMainAlt": "Our expert team",
+      "imageAccentAlt": "Personal trainer"
+    },
+      "CTA": {
+      "title": "Ready to start your journey?",
+      "description": "Join FittLife today and unlock your true potential with the support of our expert team.",
+      "primary": "Visit the gym",
+      "secondary": "Get a free consultation"
+    },
+
+     "FAQ": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers to common questions about our services and gym",
+      "items": [
+        {
+          "question": "Is your gym suitable for beginners?",
+          "answer": "Absolutely! We take pride in our welcoming and inclusive environment. Every new member receives a free orientation and assessment session to ensure you feel confident as you start your journey."
+        },
+        {
+          "question": "What types of training does FittLife offer?",
+          "answer": "We offer a wide range of services including personal training, group classes (yoga, spinning, HIIT, etc.), nutrition consulting, and customized fitness programs tailored to your specific goals."
+        },
+        {
+          "question": "How can I register as a member?",
+          "answer": "You can sign up directly at our gym front desk or online through our website. We offer flexible membership options, from day passes to long-term plans with great benefits."
+        },
+        {
+          "question": "Can I cancel my membership?",
+          "answer": "Absolutely! We understand that circumstances change. Members can pause or cancel their memberships with a 30-day notice. Our customer service team will guide you through the process."
+        },
+        {
+          "question": "Does FittLife offer free trial sessions?",
+          "answer": "Yes! We offer a one-day free trial for new visitors to experience our facilities and services. Just stop by and register with our front desk team."
+        }
+      ]
+    }
+    }
+}
+
+

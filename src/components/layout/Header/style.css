@@ -1,0 +1,9 @@
+.container-header {
+  color: #6c6c6c;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.container-content {
+  padding: 0 50px;
+}

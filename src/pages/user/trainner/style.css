@@ -1,0 +1,8 @@
+/* Ghi đè lên CSS của Sonner để hiển thị toast ở giữa màn hình */
+[data-sonner-toaster][data-position="top-center"] {
+  left: 50% !important;
+  right: auto !important;
+  top: 50% !important;
+  bottom: auto !important;
+  transform: translate(-50%, -50%) !important;
+}
