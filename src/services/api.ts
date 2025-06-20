@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const apiClient = axios.create({
-  baseURL: "http://localhost:5000", // ✅ Dùng ngrok URL thay cho localhost
+  baseURL: "https://44e1-42-117-209-119.ngrok-free.app", // ✅ Dùng ngrok URL thay cho localhost
   headers: {
     "Content-Type": "application/json",
     "ngrok-skip-browser-warning": "true", // ✅ Thêm header này để bỏ qua cảnh báo
@@ -35,7 +35,7 @@ apiClient.interceptors.response.use(
 
         // Thêm headers cho request refresh token
         const response = await axios.post(
-          "http://localhost:5000/api/auth/refresh-token",
+          "https://44e1-42-117-209-119.ngrok-free.app/api/auth/refresh-token",
           { refreshToken },
           {
             headers: {

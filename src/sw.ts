@@ -9,7 +9,7 @@ declare const self: ServiceWorkerGlobalScope;
 
 // API Configuration - Cấu hình đúng base URL
 const API_CONFIG = {
-  BASE_URL: 'http://localhost:5000', // Backend URL
+  BASE_URL: 'https://44e1-42-117-209-119.ngrok-free.app', // Backend URL
   FRONTEND_URL: 'http://localhost:5173' // Frontend URL
 };
 
