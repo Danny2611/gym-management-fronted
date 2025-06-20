@@ -25,9 +25,12 @@ export default defineConfig(({ mode }) => {
         // strategies: "generateSW",
         srcDir: "src",
         filename: 'sw.ts',
+         injectManifest: {
+          maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // ✅ đặt ở đây, không phải trong workbox
+        },
         // filename: isDev ? undefined : "sw.ts", // Chỉ dùng custom SW cho prod
         workbox: {
-          maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+          // maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
           globPatterns: [
             "**/*.{js,css,html,ico,png,svg,jpg,jpeg,gif,woff,woff2}",
           ],
