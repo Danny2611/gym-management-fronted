@@ -157,12 +157,12 @@ export default defineConfig(({ mode }) => {
       port: 5173,
       proxy: {
         "/api": {
-          target: "https://44e1-42-117-209-119.ngrok-free.app",
+          target: "https://1a2c-116-98-109-161.ngrok-free.app",
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, ""),
         },
         "/img": {
-          target: "https://44e1-42-117-209-119.ngrok-free.app",
+          target: "https://1a2c-116-98-109-161.ngrok-free.app",
           changeOrigin: true,
         },
       },
