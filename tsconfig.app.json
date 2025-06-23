@@ -26,5 +26,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "src/pages/admin/Trainers/.tsx"]
+    "include": ["src", "vite-env.d.ts"]
 }

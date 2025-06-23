@@ -3,10 +3,11 @@ import react from "@vitejs/plugin-react";
 import svgr from "vite-plugin-svgr";
 import { VitePWA } from "vite-plugin-pwa";
 import path from "path";
+import { loadEnv } from "vite";
 
 export default defineConfig(({ mode }) => {
   const isDev = mode === 'development';
-  
+    const env = loadEnv(mode, process.cwd());
   return {
     plugins: [
       react({}),
@@ -157,7 +158,7 @@ export default defineConfig(({ mode }) => {
       port: 5173,
       proxy: {
         "/api": {
-          target: "https://1a2c-116-98-109-161.ngrok-free.app",
+          target: env.VITE_API_BASE_URL,
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, ""),
         },

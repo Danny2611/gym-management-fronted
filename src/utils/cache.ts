@@ -14,8 +14,8 @@ export class CacheManager {
 
   // API Configuration
   private static readonly API_CONFIG = {
-    BASE_URL: 'http://localhost:5000', // Backend URL
-    FRONTEND_URL: 'http://localhost:5173' // Frontend URL
+    BASE_URL: import.meta.env.VITE_API_BASE_URL, // Backend URL
+    FRONTEND_URL: import.meta.env.VITE_APP_URL // Frontend URL
   };
 
   // ✅ Helper để lấy current auth token

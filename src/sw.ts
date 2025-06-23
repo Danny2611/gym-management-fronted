@@ -9,8 +9,8 @@ declare const self: ServiceWorkerGlobalScope;
 
 // API Configuration - Cấu hình đúng base URL
 const API_CONFIG = {
-  BASE_URL: 'https://1a2c-116-98-109-161.ngrok-free.app', // Backend URL
-  FRONTEND_URL: 'http://localhost:5173' // Frontend URL
+  BASE_URL: 'https://gym-management-backend-production-c5e0.up.railway.app', // Backend URL
+  FRONTEND_URL: 'https://gym-management-fronted-2qoa.vercel.app/' // Frontend URL
 };
 
 // Precache static assets
