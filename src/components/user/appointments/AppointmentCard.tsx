@@ -91,7 +91,7 @@ export const AppointmentCard: React.FC<AppointmentCardProps> = ({
         <div className="mb-4 mr-4 flex-shrink-0 sm:mb-0">
           <img
             src={
-              `http://localhost:5000/public/${appointment.trainer.image}` ||
+              `${appointment.trainer.image}` ||
               "/api/placeholder/400/400"
             }
             alt={appointment.trainer.name}

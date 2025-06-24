@@ -18,6 +18,7 @@ import TransactionHistory from "~/pages/user/transactions/TransactionHistory";
 import CreateWorkoutPage from "~/pages/user/workoutSchedule/CreateWorkoutPage";
 import ProgressPage from "~/pages/user/progress/ProgressPage";
 import { PWAInstallPrompt } from "~/components/pwa/PWAInstallPrompt";
+import NotificationsPage from "~/pages/user/notifications/NotificationsPage";
 
 const userRoutes = {
   path: "user",
@@ -65,6 +66,10 @@ const userRoutes = {
         //transactions
         { path: "transactions", element: <TransactionHistory /> },
         { path: "progress", element: <ProgressPage /> },
+
+        // notification
+          { path: "notifications", element: < NotificationsPage/>},
+
         { path: "install-pwa", element: <PWAInstallPrompt /> },
       ],
     },

@@ -138,7 +138,7 @@ const TagBlog: React.FC = () => {
                     >
                       <img
                         src={
-                          `http://localhost:5000/public/${post.coverImage}` ||
+                          `${post.coverImage}` ||
                           "/images/blog/default.jpg"
                         }
                         alt={post.title}

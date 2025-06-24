@@ -53,7 +53,7 @@ const BlogPreviewSection: React.FC = () => {
                 <Link to={`/blog/${post.slug}`}>
                   <img
                     src={
-                      `http://localhost:5000/public/${post.coverImage}` ||
+                      `${post.coverImage}` ||
                       "/images/blog/default.jpg"
                     }
                     //   src={`http://localhost:5000/${user.avatar}`}

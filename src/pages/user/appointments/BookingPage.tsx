@@ -385,7 +385,7 @@ const BookingPage: React.FC = () => {
       <div className="mb-8 flex items-center rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800">
         <img
           src={
-            `http://localhost:5000/public/${trainer.image}` ||
+            `${trainer.image}` ||
             "/api/placeholder/400/320"
           }
           alt={trainer.name}

@@ -66,7 +66,7 @@ const navItems: NavItem[] = [
   {
     icon: <FiCreditCard className="h-5 w-5" />,
     name: "Giao dịch",
-    path: "/user/transactions",
+    path: "/user/notifications",
   },
   {
     icon: <FiActivity className="h-5 w-5" />,

@@ -296,39 +296,99 @@ const Dashboard: React.FC = () => {
   }
 };
 
-  // Enhanced view membership details with offline support
-  const handleViewDetails = async (id: string) => {
-    try {
-      // Try to get from cache first if offline
-      let response;
-      if (isOfflineMode) {
-        const cachedData = await CacheManager.getData(`membership-${id}`);
-        if (cachedData) {
-          setSelectedMembership(cachedData);
-          setIsModalOpen(true);
-          return;
+ // Enhanced view membership details with better offline support
+const handleViewDetails = async (id: string) => {
+  try {
+    // console.log('handleViewDetails called with id:', id);
+    // console.log('Current offline mode:', isOfflineMode);
+    // console.log('Navigator online:', navigator.onLine);
+
+    // Check both offline mode and actual network status
+    const isActuallyOffline = isOfflineMode || !navigator.onLine;
+    
+    // Always try cache first (regardless of offline mode)
+    const cachedData = await CacheManager.getData(`membership-${id}`);
+    // console.log('Cached data found:', !!cachedData);
+    
+    if (cachedData) {
+      // console.log('Using cached data:', cachedData);
+      setSelectedMembership(cachedData);
+      setIsModalOpen(true);
+      
+      // If online, try to refresh cache in background
+      if (!isActuallyOffline) {
+        // console.log('Refreshing cache in background...');
+        try {
+          const response = await membershipService.getMembershipById(id);
+          if (response.success && response.data) {
+            await CacheManager.setData(`membership-${id}`, response.data, 10 * 60 * 1000);
+            //console.log('Cache refreshed successfully');
+          }
+        } catch (error) {
+      //    console.log('Background cache refresh failed:', error);
+          // Không hiển thị lỗi vì đã có cached data
         }
       }
+      return;
+    }
 
-      response = await membershipService.getMembershipById(id);
-      if (response.success && response.data) {
-        // Cache the result
-        await CacheManager.setData(`membership-${id}`, response.data, 10 * 60 * 1000); // 10 minutes
-        setSelectedMembership(response.data);
+    // If no cache and offline, show error
+    if (isActuallyOffline) {
+     // console.log('No cache available and offline');
+      toast.error("Không có dữ liệu offline cho gói tập này");
+      return;
+    }
+
+    // Try to fetch from API
+  //  console.log('Fetching from API...');
+    const response = await membershipService.getMembershipById(id);
+    if (response.success && response.data) {
+  //    console.log('API response successful:', response.data);
+      // Cache the result
+      await CacheManager.setData(`membership-${id}`, response.data, 10 * 60 * 1000);
+      setSelectedMembership(response.data);
+      setIsModalOpen(true);
+    } else {
+    //  console.log('API response failed:', response);
+      toast.error("Vui lòng đăng ký gói tập");
+    }
+  } catch (error) {
+    console.error("Lỗi khi tải chi tiết gói tập:", error);
+    
+    // Try cache as fallback even when there's an error
+    try {
+      const cachedData = await CacheManager.getData(`membership-${id}`);
+      if (cachedData) {
+   //     console.log('Using cached data as fallback');
+        setSelectedMembership(cachedData);
         setIsModalOpen(true);
-      } else {
-        toast.error("Vui lòng đăng ký gói tập");
+        toast.warning("Đang sử dụng dữ liệu offline");
+        return;
       }
-    } catch (error) {
-      console.error("Lỗi khi tải chi tiết gói tập:", error);
-      if (isOfflineMode) {
-        toast.error("Không có dữ liệu offline cho gói tập này");
-      } else {
-        toast.error("Đã xảy ra lỗi khi tải chi tiết gói tập");
-      }
+    } catch (cacheError) {
+      console.error('Cache fallback failed:', cacheError);
+    }
+    
+    if (isOfflineMode || !navigator.onLine) {
+      toast.error("Không có dữ liệu offline cho gói tập này");
+    } else {
+      toast.error("Đã xảy ra lỗi khi tải chi tiết gói tập");
+    }
+  }
+};
+
+
+// Debug cache status
+useEffect(() => {
+  const debugCache = async () => {
+    if (membershipDetails?.membership_id) {
+      const cached = await CacheManager.getData(`membership-${membershipDetails.membership_id}`);
+      //console.log(`Cache status for membership-${membershipDetails.membership_id}:`, !!cached);
     }
   };
-
+  
+  debugCache();
+}, [membershipDetails?.membership_id]);
   // Get badge type based on status
   const getStatusBadgeType = (status: string): "success" | "warning" | "error" | "info" => {
     switch (status.toLowerCase()) {
@@ -953,48 +1013,6 @@ const Dashboard: React.FC = () => {
           )}
         </ComponentCard>
 
-        {/* Thông báo và nhắc nhở */}
-        <ComponentCard title="Thông báo" className="lg:col-span-1">
-          <div className="space-y-4">
-            <div className="rounded-lg border-l-4 border-yellow-500 bg-yellow-50 p-4 dark:border-yellow-600 dark:bg-yellow-900/20">
-              <h4 className="mb-1 font-medium text-yellow-700 dark:text-yellow-400">
-                Gói tập sắp hết hạn
-              </h4>
-              <p className="text-sm text-yellow-600 dark:text-yellow-300">
-                Gói tập của bạn sẽ hết hạn sau 45 ngày. Gia hạn ngay để nhận ưu
-                đãi 15%.
-              </p>
-              <button className="mt-2 text-sm font-medium text-yellow-700 hover:text-yellow-800 dark:text-yellow-400 dark:hover:text-yellow-300">
-                Gia hạn ngay
-              </button>
-            </div>
-
-            <div className="rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 dark:border-blue-600 dark:bg-blue-900/20">
-              <h4 className="mb-1 font-medium text-blue-700 dark:text-blue-400">
-                Sự kiện sắp diễn ra
-              </h4>
-              <p className="text-sm text-blue-600 dark:text-blue-300">
-                Workshop "Dinh dưỡng cho người tập gym" sẽ diễn ra vào
-                20/03/2025.
-              </p>
-              <button className="mt-2 text-sm font-medium text-blue-700 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
-                Đăng ký tham gia
-              </button>
-            </div>
-
-            <div className="rounded-lg border-l-4 border-green-500 bg-green-50 p-4 dark:border-green-600 dark:bg-green-900/20">
-              <h4 className="mb-1 font-medium text-green-700 dark:text-green-400">
-                Chạm mốc thành tựu
-              </h4>
-              <p className="text-sm text-green-600 dark:text-green-300">
-                Chúc mừng! Bạn đã hoàn thành 50 buổi tập tại phòng gym.
-              </p>
-              <button className="mt-2 text-sm font-medium text-green-700 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300">
-                Xem thành tựu
-              </button>
-            </div>
-          </div>
-        </ComponentCard>
 
         {/* Khuyến mãi */}
         {promotions.length > 0 && (

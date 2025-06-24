@@ -9,8 +9,8 @@ declare const self: ServiceWorkerGlobalScope;
 
 // API Configuration - Cấu hình đúng base URL
 const API_CONFIG = {
-  BASE_URL: 'https://gym-management-backend-production-c5e0.up.railway.app', // Backend URL
-  FRONTEND_URL: 'https://gym-management-fronted-2qoa.vercel.app/' // Frontend URL
+  BASE_URL: 'http://localhost:5000', // Backend URL
+  FRONTEND_URL: 'http://localhost:5173' // Frontend URL
 };
 
 // Precache static assets
@@ -296,29 +296,84 @@ self.addEventListener('periodicsync', (event: any) => {
   }
 });
 
-// Push notification handler
 self.addEventListener('push', (event) => {
-  const options = {
-    body: event.data?.text() || 'Bạn có thông báo mới từ FitLife',
-    icon: '/icons/icon-192x192.png',
-    badge: '/icons/icon-96x96.png',
-    data: {
-      url: '/'
+  console.log('Push received:', event);
+  
+  let notificationData;
+  
+  try {
+    // Parse JSON data từ push event
+    const rawData = event.data?.text();
+    console.log('Raw push data:', rawData);
+    
+    if (rawData) {
+      notificationData = JSON.parse(rawData);
+      console.log('Parsed notification data:', notificationData);
     }
+  } catch (error) {
+    console.error('Error parsing push data:', error);
+    notificationData = null;
+  }
+
+  // Tạo options cho notification
+  const options = {
+    body: notificationData?.body || notificationData?.message || 'Bạn có thông báo mới từ FitLife',
+    icon: notificationData?.icon || '/icons/icon-192x192.png',
+    badge: notificationData?.badge || '/icons/icon-96x96.png',
+    tag: notificationData?.data?.notificationId || 'fitlife-notification',
+    data: {
+      url: notificationData?.data?.url || '/',
+      notificationId: notificationData?.data?.notificationId,
+      type: notificationData?.data?.type,
+      ...notificationData?.data
+    },
+    actions: notificationData?.actions || [
+      { action: 'view', title: 'Xem chi tiết' },
+      { action: 'close', title: 'Đóng' }
+    ],
+    requireInteraction: false,
+    silent: false
   };
 
+  // Hiển thị notification
+  const title = notificationData?.title || 'FitLife Gym';
+  
+  console.log('Showing notification:', title, options);
+
   event.waitUntil(
-    self.registration.showNotification('FitLife Gym', options)
+    self.registration.showNotification(title, options)
   );
 });
 
-// Click notification handler
+
+// Xử lý khi user click vào notification
 self.addEventListener('notificationclick', (event) => {
+  console.log('Notification clicked:', event);
+  
   event.notification.close();
+
+  if (event.action === 'close') {
+    return;
+  }
+
+  // Lấy URL từ data
+  const urlToOpen = event.notification.data?.url || '/';
   
   event.waitUntil(
-    self.clients.openWindow(event.notification.data?.url || '/')
+    clients.matchAll({ type: 'window', includeUncontrolled: true })
+      .then((clientList) => {
+        // Tìm tab đã mở với URL tương tự
+        for (const client of clientList) {
+          if (client.url.includes(urlToOpen) && 'focus' in client) {
+            return client.focus();
+          }
+        }
+        
+        // Nếu không tìm thấy, mở tab mới
+        if (clients.openWindow) {
+          return clients.openWindow(urlToOpen);
+        }
+      })
   );
 });
-
 console.log('Service Worker loaded successfully with API URL:', API_CONFIG.BASE_URL);

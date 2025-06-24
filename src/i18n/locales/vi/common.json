@@ -316,7 +316,240 @@
     }
 
   
+  },
+    "services": {
+      "title" : "services",
+    "ServicesSection": {
+      "title": "Dịch Vụ Nổi Bật",
+      "subtitle": "NHỮNG GÌ CHÚNG TÔI CUNG CẤP",
+      "description": "Khám phá các dịch vụ thể hình toàn diện giúp bạn đạt được mục tiêu sức khỏe và phong cách sống lý tưởng.",
+      "items": [
+        {
+          "id": "pt-uu-tien",
+          "image": "/images/services/personal-training.jpg",
+          "title": "Huấn luyện viên cá nhân",
+          "description": "Được hỗ trợ 1-1 cùng HLV chuyên nghiệp, xây dựng lộ trình tập luyện phù hợp với mục tiêu cá nhân của bạn.",
+          "link": "/services/pt-uu-tien"
+        },
+        {
+          "id": "lop-nhom",
+          "image": "/images/services/group-fitness.JPG",
+          "title": "Lớp nhóm năng động",
+          "description": "Tham gia các lớp cardio, HIIT hoặc yoga cùng huấn luyện viên trong môi trường vui vẻ và đầy năng lượng.",
+          "link": "/services/lop-nhom"
+        },
+        {
+          "id": "dinh-duong",
+          "image": "/images/services/nutrition-coaching.JPG",
+          "title": "Tư vấn dinh dưỡng",
+          "description": "Tối ưu hiệu quả tập luyện với thực đơn dinh dưỡng cá nhân hóa phù hợp với thể trạng và mục tiêu.",
+          "link": "/services/dinh-duong"
+        },
+        {
+          "id": "khu-vuc-vip",
+          "image": "/images/services/strength-training.JPG",
+          "title": "Khu vực tập luyện cao cấp",
+          "description": "Tận hưởng không gian VIP, đầy đủ thiết bị hiện đại, spa, phòng hồi phục và nhiều tiện ích đặc quyền.",
+          "link": "/services/khu-vuc-vip"
+        },
+        {
+          "id": "yoga-thu-gian",
+          "image": "/images/services/yoga-relaxation.JPG",
+          "title": "Yoga và thư giãn",
+          "description": "Cân bằng cơ thể và tinh thần với các lớp yoga, thiền, và kéo giãn giúp giảm stress và cải thiện giấc ngủ.",
+          "link": "/services/yoga-thu-gian"
+        },
+        {
+          "id": "phuc-hoi-chuc-nang",
+          "image": "/images/services/rehab-training.JPG",
+          "title": "Phục hồi chức năng",
+          "description": "Chương trình phục hồi dành cho người bị chấn thương, đau lưng, đau khớp hoặc cần cải thiện vận động.",
+          "link": "/services/phuc-hoi-chuc-nang"
+        },
+        {
+          "id": "danh-gia-co-the",
+          "image": "/images/services/body-assessment.JPG",
+          "title": "Đánh giá cơ thể toàn diện",
+          "description": "Phân tích chỉ số cơ thể, mỡ, cơ và trao đổi chất để lập kế hoạch tập luyện hiệu quả và khoa học.",
+          "link": "/services/danh-gia-co-the"
+        },
+        {
+          "id": "spa-cao-cap",
+          "image": "/images/services/premium-spa.JPG",
+          "title": "Dịch vụ spa cao cấp",
+          "description": "Thư giãn sau buổi tập với các liệu trình massage, xông hơi, chăm sóc da chuyên sâu trong không gian sang trọng.",
+          "link": "/services/spa-cao-cap"
+        }
+      ]
+    },
+     "FAQSection": {
+      "title": "Giải đáp thắc mắc của bạn",
+      "subtitle": "Câu hỏi thường gặp",
+      "description": "Những câu hỏi phổ biến liên quan đến dịch vụ, gói tập và chính sách của chúng tôi.",
+      "cta": "Không tìm thấy câu trả lời bạn cần?",
+      "button": "Liên hệ với chúng tôi",
+      "items": [
+        {
+          "question": "Giờ mở cửa phòng gym như thế nào?",
+          "answer": "Chúng tôi mở cửa từ Thứ Hai đến Thứ Sáu, 5:00 sáng đến 11:00 tối. Cuối tuần mở từ 7:00 sáng đến 9:00 tối. Giờ hoạt động vào các dịp lễ sẽ được thông báo trước."
+        },
+        {
+          "question": "Tôi có cần mang theo thiết bị tập luyện không?",
+          "answer": "Không, phòng tập đã trang bị đầy đủ thiết bị cần thiết. Chúng tôi cung cấp khăn tập, tuy nhiên bạn nên mang theo chai nước cá nhân. Chúng tôi có máy lọc nước tại chỗ."
+        },
+        {
+          "question": "Hủy hội viên có mất phí không?",
+          "answer": "Với hội viên theo tháng, cần thông báo trước 30 ngày và không mất thêm phí. Với hội viên năm, có thể bị tính phí nếu hủy sớm trước thời hạn hợp đồng. Vui lòng xem điều khoản hợp đồng để biết chi tiết."
+        },
+        {
+          "question": "Phòng gym có dịch vụ giữ trẻ không?",
+          "answer": "Có, chúng tôi cung cấp dịch vụ giữ trẻ vào một số khung giờ nhất định trong tuần. Có thu phí nhỏ và nên đặt trước vào giờ cao điểm."
+        },
+        {
+          "question": "Tôi có thể tạm ngưng hội viên không?",
+          "answer": "Có thể. Hội viên được phép tạm ngưng từ 1 đến 3 tháng mỗi năm, có áp dụng phí duy trì nhỏ hàng tháng. Liên hệ bộ phận hỗ trợ để biết thêm chi tiết."
+        },
+        {
+          "question": "Đăng ký lớp học nhóm như thế nào?",
+          "answer": "Bạn có thể đăng ký qua website, ứng dụng di động hoặc tại quầy lễ tân. Chúng tôi khuyến khích đặt chỗ sớm vì các lớp phổ biến thường hết chỗ nhanh. Hội viên cao cấp có quyền đặt chỗ ưu tiên."
+        }
+      ]
+    },
+     "ServiceDetailSection": {
+    "section": {
+      "subtitle": "DỊCH VỤ CỦA CHÚNG TÔI",
+      "benefits": "Lợi Ích",
+      "included": "Bao Gồm"
+    },
+    "testimonial": {
+      "iconCheck": "fas fa-check-circle",
+      "iconCheckIncluded": "fas fa-check",
+      "quoteIcon": "fas fa-quote-left"
+    },
+    "notFound": {
+      "title": "Không Tìm Thấy Dịch Vụ",
+      "description": "",
+      "fullDescription": ["Thông tin dịch vụ không khả dụng."]
+    },
+    "servicesData": {
+      "personal-training": {
+        "id": "personal-training",
+        "title": "Huấn Luyện Cá Nhân",
+        "description": "Huấn luyện một-đối-một được điều chỉnh theo mục tiêu, mức độ thể lực và lịch trình cụ thể của bạn.",
+        "fullDescription": [
+          "Dịch vụ huấn luyện cá nhân của chúng tôi cung cấp sự quan tâm cá nhân hóa và các kế hoạch tập luyện được thiết kế riêng cho bạn...",
+          "Mỗi buổi tập được cấu trúc để tối đa hóa thời gian và nỗ lực của bạn..."
+        ],
+        "image": "/images/services/personal-training.jpg",
+        "benefits": [
+          "Kế hoạch tập luyện được điều chỉnh theo mục tiêu của bạn",
+          "Hướng dẫn chuyên gia về tư thế và kỹ thuật đúng",
+          "Đánh giá tiến độ và điều chỉnh kế hoạch thường xuyên",
+          "Tư vấn dinh dưỡng để bổ sung cho việc tập luyện",
+          "Trách nhiệm giải trình và động lực để giữ bạn đúng hướng",
+          "Lên lịch linh hoạt phù hợp với lối sống của bạn"
+        ],
+        "includedFeatures": [
+          "Đánh giá thể chất ban đầu và phiên xác định mục tiêu",
+          "Chương trình tập luyện cá nhân hóa",
+          "Hướng dẫn dinh dưỡng",
+          "Theo dõi tiến độ thường xuyên",
+          "Tiếp cận các khu vực tập luyện độc quyền",
+          "Liên lạc trực tiếp với huấn luyện viên giữa các buổi tập"
+        ],
+        "testimonial": {
+          "text": "Làm việc với huấn luyện viên cá nhân tại FittLife...",
+          "author": "Nguyễn Thị Hương",
+          "role": "Hội viên từ năm 2019"
+        }
+      },
+      "nutrition-plans": {
+        "id": "nutrition-plans",
+        "title": "Kế Hoạch Dinh Dưỡng",
+        "description": "Chế độ ăn uống được cá nhân hóa để hỗ trợ các mục tiêu sức khỏe và thể hình của bạn.",
+        "fullDescription": [
+          "Kế hoạch dinh dưỡng của chúng tôi được thiết kế riêng để bổ sung cho chế độ tập luyện của bạn...",
+          "Chúng tôi tin rằng dinh dưỡng tốt không phải là về việc cực đoan..."
+        ],
+        "image": "/images/services/nutrition-coaching.JPG",
+        "benefits": [
+         "Kế hoạch dinh dưỡng được cá nhân hóa dựa trên nhu cầu và mục tiêu của bạn",
+          "Hướng dẫn lựa chọn thực phẩm thông minh phù hợp với lối sống của bạn",
+          "Chiến lược quản lý cân nặng hiệu quả và bền vững",
+          "Tối ưu hóa năng lượng và hiệu suất thể thao",
+          "Cách tiếp cận dinh dưỡng toàn diện cho sức khỏe lâu dài",
+          "Giúp phát triển mối quan hệ lành mạnh với thực phẩm"
+        ],
+        "includedFeatures": [
+           "Đánh giá dinh dưỡng và phân tích chế độ ăn uống hiện tại",
+          "Tư vấn dinh dưỡng 1-1 với chuyên gia có chứng chỉ",
+          "Kế hoạch bữa ăn được cá nhân hóa với công thức phù hợp",
+          "Hướng dẫn mua sắm thực phẩm và chuẩn bị bữa ăn",
+          "Hỗ trợ liên tục và điều chỉnh kế hoạch khi cần",
+          "Ứng dụng theo dõi dinh dưỡng và công cụ kỹ thuật số"
+        ],
+        "testimonial": {
+          "text": "Kế hoạch dinh dưỡng từ FittLife đã mang lại sự thay đổi đáng kinh ngạc...",
+          "author": "Trần Văn Minh",
+          "role": "Hội viên từ năm 2021"
+        }
+      }
+    }
   }
+  
+  },
+
+   "contact": {
+    "ContactInfo": {
+      "location": "123 Linh Xuân, thành phố Thủ Đức, Hồ Chí Minh.",
+      "phoneTitle": "Số điện thoại",
+      "phoneMain": "Chính: (123) 456‑7890",
+      "phoneSupport": "Hỗ trợ: (123) 456‑7891",
+      "emailTitle": "Email",
+      "emailInfo": "info@fittlife.com",
+      "emailSupport": "support@fittlife.com",
+      "hoursTitle": "Giờ làm việc",
+      "hoursWeekday": "Thứ 2–Thứ 6: 6:00 AM – 10:00 PM",
+      "hoursWeekend": "Thứ 7–Chủ nhật: 8:00 AM – 8:00 PM"
+    },
+    "ContactFormSection": {
+    "title": "Gửi tin nhắn cho chúng tôi",
+    "subtitle": "Chúng tôi sẽ phản hồi sớm nhất có thể"
+  },
+   "ContactFAQs": {
+    "pageTitle": "Liên Hệ",
+    "title": "Câu hỏi thường gặp",
+    "subtitle": "Giải đáp thắc mắc về dịch vụ và phòng tập của chúng tôi",
+    "items": [
+      {
+        "question": "Phòng gym mở cửa vào thời gian nào?",
+        "answer": "Chúng tôi mở cửa từ 6:00 sáng đến 10:00 tối từ thứ Hai đến thứ Sáu, và từ 8:00 sáng đến 8:00 tối vào cuối tuần."
+      },
+      {
+        "question": "Tôi có thể tập với huấn luyện viên cá nhân không?",
+        "answer": "Có, chúng tôi có các buổi tập cùng HLV cá nhân được chứng nhận. Bạn có thể đăng ký trực tiếp tại quầy lễ tân hoặc qua ứng dụng di động."
+      },
+      {
+        "question": "Tôi có được dùng thử miễn phí không?",
+        "answer": "Chúng tôi cung cấp 7 ngày tập thử miễn phí dành cho hội viên mới. Bạn có thể đăng ký trên website hoặc đến trực tiếp phòng tập."
+      },
+      {
+        "question": "Làm sao để hủy hội viên?",
+        "answer": "Bạn có thể đến quầy lễ tân để điền form hủy, hoặc đăng nhập vào tài khoản trên website và làm theo hướng dẫn hủy."
+      },
+      {
+        "question": "Có các lớp học nhóm không?",
+        "answer": "Có, chúng tôi có nhiều lớp học nhóm như yoga, đạp xe, HIIT, v.v. Bạn có thể xem lịch học trên website hoặc ứng dụng."
+      },
+      {
+        "question": "Phòng tập có phòng tắm không?",
+        "answer": "Có, chúng tôi có phòng tắm đầy đủ với khăn tắm, dầu gội và sữa tắm miễn phí."
+      }
+    ]
+  }
+  }
+
+  
   
 
 

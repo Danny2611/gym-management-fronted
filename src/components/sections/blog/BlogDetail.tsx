@@ -37,7 +37,7 @@ const BlogDetail: React.FC<BlogDetailProps> = ({ post, relatedPosts = [] }) => {
         <div className="mb-10">
           <img
             src={
-              `http://localhost:5000/public/${post.coverImage}` ||
+              `${post.coverImage}` ||
               "/images/blog/default.jpg"
             }
             alt={post.title}
@@ -71,13 +71,9 @@ const BlogDetail: React.FC<BlogDetailProps> = ({ post, relatedPosts = [] }) => {
         {/* Author Info */}
         {post.author && (
           <div className="mb-10 flex items-center space-x-4 rounded-lg bg-gray-50 p-6">
-            {/* <img
-              src={`http://localhost:5000/public/${post.author.avatar}`}
-              alt={post.author.name}
-              className="h-16 w-16 rounded-full"
-            /> */}
+           
             <Avatar
-              src={`http://localhost:5000/public/${post.author.avatar}`}
+              src={post.author.avatar}
               size="large"
               alt={post.author.name}
               className="h-16 w-16 rounded-full"
@@ -100,7 +96,7 @@ const BlogDetail: React.FC<BlogDetailProps> = ({ post, relatedPosts = [] }) => {
                   className="overflow-hidden rounded-lg bg-white shadow-md"
                 >
                   <img
-                    src={`http://localhost:5000/public/${relatedPost.coverImage}`}
+                    src={relatedPost.coverImage}
                     alt={relatedPost.title}
                     className="h-48 w-full object-cover"
                   />

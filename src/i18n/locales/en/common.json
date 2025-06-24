@@ -315,7 +315,242 @@
         }
       ]
     }
+    },
+
+     "services": {
+      "title" : "Services",
+    "ServicesSection": {
+      "title": "Featured Services",
+      "subtitle": "WHAT WE OFFER",
+      "description": "Explore comprehensive fitness services to help you achieve your health goals and ideal lifestyle.",
+      "items": [
+        {
+          "id": "pt-uu-tien",
+          "image": "/images/services/personal-training.jpg",
+          "title": "Personal Training",
+          "description": "1-on-1 support from professional trainers with personalized workout plans tailored to your goals.",
+          "link": "/services/pt-uu-tien"
+        },
+        {
+          "id": "lop-nhom",
+          "image": "/images/services/group-fitness.JPG",
+          "title": "Group Fitness Classes",
+          "description": "Join energetic group sessions like cardio, HIIT, or yoga with expert guidance.",
+          "link": "/services/lop-nhom"
+        },
+        {
+          "id": "dinh-duong",
+          "image": "/images/services/nutrition-coaching.JPG",
+          "title": "Nutrition Coaching",
+          "description": "Optimize your performance with a personalized nutrition plan suited to your body and goals.",
+          "link": "/services/dinh-duong"
+        },
+        {
+          "id": "khu-vuc-vip",
+          "image": "/images/services/strength-training.JPG",
+          "title": "Premium Workout Area",
+          "description": "Enjoy a VIP space with modern equipment, spa access, recovery rooms, and exclusive amenities.",
+          "link": "/services/khu-vuc-vip"
+        },
+        {
+          "id": "yoga-thu-gian",
+          "image": "/images/services/yoga-relaxation.JPG",
+          "title": "Yoga & Relaxation",
+          "description": "Balance your body and mind through yoga, meditation, and stretching to relieve stress.",
+          "link": "/services/yoga-thu-gian"
+        },
+        {
+          "id": "phuc-hoi-chuc-nang",
+          "image": "/images/services/rehab-training.JPG",
+          "title": "Rehabilitation",
+          "description": "Programs for injury recovery, back pain, joint pain, and movement improvement.",
+          "link": "/services/phuc-hoi-chuc-nang"
+        },
+        {
+          "id": "danh-gia-co-the",
+          "image": "/images/services/body-assessment.JPG",
+          "title": "Comprehensive Body Assessment",
+          "description": "Analyze body composition, fat, muscle, and metabolism to build effective training plans.",
+          "link": "/services/danh-gia-co-the"
+        },
+        {
+          "id": "spa-cao-cap",
+          "image": "/images/services/premium-spa.JPG",
+          "title": "Premium Spa Services",
+          "description": "Relax after workouts with massage therapy, sauna, and skincare in a luxurious space.",
+          "link": "/services/spa-cao-cap"
+        }
+      ]
+    },
+     "FAQSection": {
+      "title": "Your Questions Answered",
+      "subtitle": "Frequently Asked Questions",
+      "description": "Popular questions regarding our services, packages, and policies.",
+      "cta": "Can’t find the answer you need?",
+      "button": "Contact Us",
+      "items": [
+        {
+          "question": "What are the gym opening hours?",
+          "answer": "We are open from Monday to Friday, 5:00 AM to 11:00 PM. On weekends, we open from 7:00 AM to 9:00 PM. Holiday hours will be announced in advance."
+        },
+        {
+          "question": "Do I need to bring my own workout equipment?",
+          "answer": "No, our gym is fully equipped. We provide workout towels, but you should bring your own water bottle. Water refill stations are available."
+        },
+        {
+          "question": "Are there any cancellation fees for membership?",
+          "answer": "Monthly members must give 30 days notice, with no extra fees. Yearly members may incur a fee if canceling before the end of the contract. Please refer to the membership terms."
+        },
+        {
+          "question": "Do you offer child care services?",
+          "answer": "Yes, we offer child care during selected hours throughout the week. A small fee applies, and booking in advance during peak hours is recommended."
+        },
+        {
+          "question": "Can I temporarily pause my membership?",
+          "answer": "Yes. Members can pause their membership for 1 to 3 months per year, with a small monthly maintenance fee. Contact our support team for details."
+        },
+        {
+          "question": "How can I register for group classes?",
+          "answer": "You can register via the website, mobile app, or at the front desk. Early booking is recommended for popular classes. Premium members enjoy priority booking."
+        }
+      ]
+    },
+
+    
+  "ServiceDetailSection": {
+    "section": {
+      "subtitle": "OUR SERVICES",
+      "benefits": "Benefits",
+      "included": "Included"
+    },
+    "testimonial": {
+      "iconCheck": "fas fa-check-circle",
+      "iconCheckIncluded": "fas fa-check",
+      "quoteIcon": "fas fa-quote-left"
+    },
+    "notFound": {
+      "title": "Service Not Found",
+      "description": "",
+      "fullDescription": ["Service information is not available."]
+    },
+    "servicesData": {
+      "personal-training": {
+        "id": "personal-training",
+        "title": "Personal Training",
+        "description": "One-on-one coaching tailored to your goals, fitness level, and schedule.",
+        "fullDescription": [
+          "Our personal training service offers personalized attention and custom workout plans tailored to you...",
+          "Each session is structured to maximize your time and effort..."
+        ],
+        "image": "/images/services/personal-training.jpg",
+        "benefits": [
+          "Workout plans tailored to your personal goals",
+          "Expert guidance on proper posture and technique",
+          "Progress assessments and plan adjustments",
+          "Nutrition advice to complement your workouts",
+          "Accountability and motivation to stay on track",
+          "Flexible scheduling to fit your lifestyle"
+        ],
+        "includedFeatures": [
+          "Initial fitness assessment and goal setting session",
+          "Personalized workout programs",
+          "Nutrition guidance",
+          "Regular progress tracking",
+          "Access to exclusive training areas",
+          "Direct communication with your trainer between sessions"
+        ],
+        "testimonial": {
+          "text": "Working with a personal trainer at FittLife completely changed how I approach fitness...",
+          "author": "Nguyen Thi Huong",
+          "role": "Member since 2019"
+        }
+      },
+      "nutrition-plans": {
+        "id": "nutrition-plans",
+        "title": "Nutrition Plans",
+        "description": "Personalized eating plans to support your health and fitness goals.",
+        "fullDescription": [
+          "Our nutrition plans are custom-designed to complement your workout regimen...",
+          "We believe good nutrition isn’t about extremes but finding a sustainable balance..."
+        ],
+        "image": "/images/services/nutrition-coaching.JPG",
+        "benefits": [
+          "Personalized nutrition plans based on your needs and goals",
+          "Smart food choices guidance that fits your lifestyle",
+          "Effective and sustainable weight management strategies",
+          "Optimize energy and sports performance",
+          "A holistic approach to long-term health",
+          "Helps develop a healthy relationship with food"
+        ],
+        "includedFeatures": [
+          "Nutrition assessment and current diet analysis",
+          "1-on-1 consultation with certified nutritionist",
+          "Personalized meal plans with suitable recipes",
+          "Grocery shopping and meal prep guidance",
+          "Ongoing support and plan adjustments",
+          "Nutrition tracking app and digital tools"
+        ],
+        "testimonial": {
+          "text": "FittLife’s nutrition plan brought an incredible improvement to my health and energy levels...",
+          "author": "Tran Van Minh",
+          "role": "Member since 2021"
+        }
+      }
     }
-}
+  }
+},
+
+  "contact": {
+    "ContactInfo": {
+      "location": "123 Linh Xuan, Thu Duc City, Ho Chi Minh.",
+      "phoneTitle": "Phone Number",
+      "phoneMain": "Main: (123) 456‑7890",
+      "phoneSupport": "Support: (123) 456‑7891",
+      "emailTitle": "Email Address",
+      "emailInfo": "info@fittlife.com",
+      "emailSupport": "support@fittlife.com",
+      "hoursTitle": "Working Hours",
+      "hoursWeekday": "Mon–Fri: 6:00 AM – 10:00 PM",
+      "hoursWeekend": "Sat–Sun: 8:00 AM – 8:00 PM"
+    },
+     "ContactFormSection": {
+    "title": "Send Us a Message",
+    "subtitle": "We'll get back to you as soon as possible"
+  },
+   "ContactFAQs": {
+    "pageTitle": "Contact",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to common questions about our gym and services",
+    "items": [
+      {
+        "question": "What are the gym opening hours?",
+        "answer": "We are open from 6:00 AM to 10:00 PM Monday through Friday, and from 8:00 AM to 8:00 PM on weekends."
+      },
+      {
+        "question": "Can I train with a personal trainer?",
+        "answer": "Yes, we offer certified personal training sessions. You can register at the front desk or through our mobile app."
+      },
+      {
+        "question": "Do you offer a free trial?",
+        "answer": "We provide a 7-day free trial for new members. You can sign up on our website or visit the gym directly."
+      },
+      {
+        "question": "How do I cancel my membership?",
+        "answer": "You can cancel by filling out a form at the front desk or by logging into your account on our website and following the cancellation instructions."
+      },
+      {
+        "question": "Do you offer group classes?",
+        "answer": "Yes, we have a variety of group classes like yoga, cycling, HIIT, etc. You can view the class schedule on our website or app."
+      },
+      {
+        "question": "Do you have shower facilities?",
+        "answer": "Yes, we provide full shower facilities with complimentary towels, shampoo, and body wash."
+      }
+    ]
+  }
+  }
+
+     }
+    
 
 

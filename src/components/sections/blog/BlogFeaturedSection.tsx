@@ -63,7 +63,7 @@ const BlogFeaturedSection: React.FC = () => {
               <Link to={`/blog/${mainPost.slug}`}>
                 <img
                   src={
-                    `http://localhost:5000/public/${mainPost.coverImage}` ||
+                    `${mainPost.coverImage}` ||
                     "/images/blog/default.jpg"
                   }
                   alt={mainPost.title}
@@ -120,7 +120,7 @@ const BlogFeaturedSection: React.FC = () => {
                   <Link to={`/blog/${post.slug}`}>
                     <img
                       src={
-                        `http://localhost:5000/public/${post.coverImage}` ||
+                        `${post.coverImage}` ||
                         "/images/blog/default.jpg"
                       }
                       alt={post.title}

@@ -364,7 +364,7 @@ const RescheduleAppointmentPage: React.FC = () => {
             <div className="mb-6 flex items-center rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-700/50">
               <img
                 src={
-                  `http://localhost:5000/public/${trainer.image}` ||
+                  `${trainer.image}` ||
                   "/api/placeholder/400/320"
                 }
                 alt={trainer.name}

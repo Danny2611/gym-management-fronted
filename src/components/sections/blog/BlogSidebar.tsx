@@ -56,7 +56,7 @@ const BlogSidebar: React.FC<BlogSidebarProps> = ({
               <div className="h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg">
                 <img
                   src={
-                    `http://localhost:5000/public/${post.coverImage}` ||
+                    `${post.coverImage}` ||
                     "/images/blog/default.jpg"
                   }
                   alt={post.title}

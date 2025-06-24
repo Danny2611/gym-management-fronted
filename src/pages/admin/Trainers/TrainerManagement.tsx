@@ -517,7 +517,7 @@ const TrainerManagement: React.FC = () => {
                           <div className="flex items-center">
                             {trainer.image ? (
                               <img
-                                src={`http://localhost:5000/public/${trainer.image}`}
+                                src={trainer.image}
                                 alt={trainer.name}
                                 className="h-8 w-8 flex-shrink-0 rounded-full object-cover sm:h-10 sm:w-10"
                               />
@@ -616,7 +616,7 @@ const TrainerManagement: React.FC = () => {
                       <div className="flex items-center">
                         {trainer.image ? (
                           <img
-                            src={`http://localhost:5000/public/${trainer.image}`}
+                            src={trainer.image}
                             alt={trainer.name}
                             className="h-12 w-12 flex-shrink-0 rounded-full object-cover"
                           />

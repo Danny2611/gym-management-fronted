@@ -103,7 +103,7 @@ const TrainerCard: React.FC<TrainerCardProps> = ({
         <div className="mb-4 mr-6 flex-shrink-0 md:mb-0">
           <img
             src={
-              `http://localhost:5000/public/${trainer.image}` ||
+              `${trainer.image}` ||
               "/api/placeholder/400/400"
             }
             alt={trainer.name}
