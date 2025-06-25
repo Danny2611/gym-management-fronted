@@ -9,8 +9,8 @@ declare const self: ServiceWorkerGlobalScope;
 
 // API Configuration - Cấu hình đúng base URL
 const API_CONFIG = {
-  BASE_URL: 'http://localhost:5000', // Backend URL
-  FRONTEND_URL: 'http://localhost:5173' // Frontend URL
+  BASE_URL: import.meta.env.VITE_API_BASE_URL, // Backend URL
+  FRONTEND_URL: import.meta.env.VITE_APP_URL // Frontend URL
 };
 
 // Precache static assets

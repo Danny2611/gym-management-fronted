@@ -66,7 +66,7 @@ const navItems: NavItem[] = [
   {
     icon: <FiCreditCard className="h-5 w-5" />,
     name: "Giao dịch",
-    path: "/user/notifications",
+    path: "/user/transactions",
   },
   {
     icon: <FiActivity className="h-5 w-5" />,
@@ -80,7 +80,7 @@ const othersItems: NavItem[] = [
   {
     icon: <FiBell className="h-5 w-5" />,
     name: "Thông báo",
-    path: "/user/settings/notifications",
+    path: "/user/notifications",
   },
   {
     icon: <FiInfo className="h-5 w-5" />,
